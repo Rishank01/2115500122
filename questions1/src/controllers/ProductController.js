@@ -1,4 +1,4 @@
-const { fetchProducts, fetchProductDetails } = require('../services/productService');
+const { fetchProducts, fetchProductDetails } = require('../services/ProductService');
 
 const getProducts = async (req, res) => {
   const { categoryname } = req.params;
